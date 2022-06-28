@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TodasFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/Primary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/Primary"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BIBLIOTECA JUVENIL"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="155dp"
+                android:backgroundTint="@color/Primary"
+                android:drawableBottom="@drawable/menu"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/cervantes" />
+
+                <Button
+                    android:text="Biblioteca Miguel de Cervantes "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Cervantes"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/banrep" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Red cultural del banco de la republica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/banRep"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/colombia" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Biblioteca Nacional de colombia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Nacional"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/argentina" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Biblioteca nacional de argentina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bn"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/comic1" />
+
+                <Button
+                    android:text="Comic Book plus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/comikBook"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/juridica" />
+
+                <Button
+                    android:text="Biblioteca juridica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Juridicas"/>
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="127dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/econlib"/>
+
+                <Button
+                    android:text='EconLib "ECONOMIA"'
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/econLib"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/salud" />
+
+                <Button
+                    android:text="Biblioteca virtual de la salud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bvSalud"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/congreso" />
+
+                <Button
+                    android:text="libreria del congreso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Loc"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/comixology" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="comixology"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/comiXology"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/archive" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="INTERNET ARCHIVE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Archive"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/gutemberg" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Proyect gutenberg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Gutenberg"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/farlex" />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="library by farlex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/freeLibrary"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
